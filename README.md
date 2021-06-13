@@ -20,6 +20,8 @@ limitations under the License.
 
 # Milliseconds in a Minute
 
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+
 > Number of milliseconds in a minute.
 
 <section class="installation">
@@ -122,6 +124,18 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="links">
+
+[npm-image]: http://img.shields.io/npm/v/@stdlib/constants-time-milliseconds-in-minute.svg
+[npm-url]: https://npmjs.org/package/@stdlib/constants-time-milliseconds-in-minute
+
+[test-image]: https://github.com/stdlib-js/constants-time-milliseconds-in-minute/actions/workflows/test.yml/badge.svg
+[test-url]: https://github.com/stdlib-js/constants-time-milliseconds-in-minute/actions/workflows/test.yml
+
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/constants-time-milliseconds-in-minute/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/constants-time-milliseconds-in-minute?branch=main
+
+[dependencies-image]: https://img.shields.io/david/stdlib-js/constants-time-milliseconds-in-minute
+[dependencies-url]: https://david-dm.org/stdlib-js/constants-time-milliseconds-in-minute/main
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
