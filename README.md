@@ -31,7 +31,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import MILLISECONDS_IN_MINUTE from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-milliseconds-in-minute@deno/mod.js';
+import MILLISECONDS_IN_MINUTE from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-milliseconds-in-minute@v0.0.8-deno/mod.js';
 ```
 
 #### MILLISECONDS_IN_MINUTE
@@ -66,7 +66,7 @@ var bool = ( MILLISECONDS_IN_MINUTE === 60000 );
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import roundn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-roundn@deno/mod.js';
-import MILLISECONDS_IN_MINUTE from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-milliseconds-in-minute@deno/mod.js';
+import MILLISECONDS_IN_MINUTE from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-milliseconds-in-minute@v0.0.8-deno/mod.js';
 
 var ms;
 var m;
