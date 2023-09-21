@@ -18,44 +18,47 @@ limitations under the License.
 
 -->
 
+
+<details>
+  <summary>
+    About stdlib...
+  </summary>
+  <p>We believe in a future in which the web is a preferred environment for numerical computation. To help realize this future, we've built stdlib. stdlib is a standard library, with an emphasis on numerical and scientific computation, written in JavaScript (and C) for execution in browsers and in Node.js.</p>
+  <p>The library is fully decomposable, being architected in such a way that you can swap out and mix and match APIs and functionality to cater to your exact preferences and use cases.</p>
+  <p>When you use stdlib, you can be absolutely certain that you are using the most thorough, rigorous, well-written, studied, documented, tested, measured, and high-quality code out there.</p>
+  <p>To join us in bringing numerical computing to the web, get started by checking us out on <a href="https://github.com/stdlib-js/stdlib">GitHub</a>, and please consider <a href="https://opencollective.com/stdlib">financially supporting stdlib</a>. We greatly appreciate your continued support!</p>
+</details>
+
 # Milliseconds in a Minute
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Number of milliseconds in a minute.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-time-milliseconds-in-minute
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-MILLISECONDS_IN_MINUTE = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-milliseconds-in-minute@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var MILLISECONDS_IN_MINUTE = require( 'path/to/vendor/umd/constants-time-milliseconds-in-minute/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-milliseconds-in-minute@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.MILLISECONDS_IN_MINUTE;
-})();
-</script>
+var MILLISECONDS_IN_MINUTE = require( '@stdlib/constants-time-milliseconds-in-minute' );
 ```
 
 #### MILLISECONDS_IN_MINUTE
@@ -87,15 +90,10 @@ var bool = ( MILLISECONDS_IN_MINUTE === 60000 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-roundn@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-milliseconds-in-minute@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var roundn = require( '@stdlib/math-base-special-roundn' );
+var MILLISECONDS_IN_MINUTE = require( '@stdlib/constants-time-milliseconds-in-minute' );
 
 var ms;
 var m;
@@ -110,11 +108,6 @@ for ( i = 0; i < 10; i++ ) {
     ms = mins2ms( m );
     console.log( '%d mins => %d milliseconds', m, ms );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -168,8 +161,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/constants-time-milliseconds-in-minute.svg
 [npm-url]: https://npmjs.org/package/@stdlib/constants-time-milliseconds-in-minute
 
-[test-image]: https://github.com/stdlib-js/constants-time-milliseconds-in-minute/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/constants-time-milliseconds-in-minute/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/constants-time-milliseconds-in-minute/actions/workflows/test.yml/badge.svg?branch=v0.1.0
+[test-url]: https://github.com/stdlib-js/constants-time-milliseconds-in-minute/actions/workflows/test.yml?query=branch:v0.1.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/constants-time-milliseconds-in-minute/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/constants-time-milliseconds-in-minute?branch=main
