@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import MILLISECONDS_IN_MINUTE from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-milliseconds-in-minute@esm/index.mjs';
+import MILLISECONDS_IN_MINUTE from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-milliseconds-in-minute@v0.1.0-esm/index.mjs';
 ```
 
 #### MILLISECONDS_IN_MINUTE
@@ -82,7 +82,7 @@ var bool = ( MILLISECONDS_IN_MINUTE === 60000 );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import roundn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-roundn@esm/index.mjs';
-import MILLISECONDS_IN_MINUTE from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-milliseconds-in-minute@esm/index.mjs';
+import MILLISECONDS_IN_MINUTE from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-milliseconds-in-minute@v0.1.0-esm/index.mjs';
 
 var ms;
 var m;
