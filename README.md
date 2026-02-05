@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import MILLISECONDS_IN_MINUTE from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-milliseconds-in-minute@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-time-milliseconds-in-minute/tags). For example,
+
+```javascript
 import MILLISECONDS_IN_MINUTE from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-milliseconds-in-minute@v0.3.3-esm/index.mjs';
 ```
 
@@ -82,7 +87,7 @@ var bool = ( MILLISECONDS_IN_MINUTE === 60000 );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import roundn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-roundn@esm/index.mjs';
-import MILLISECONDS_IN_MINUTE from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-milliseconds-in-minute@v0.3.3-esm/index.mjs';
+import MILLISECONDS_IN_MINUTE from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-milliseconds-in-minute@esm/index.mjs';
 
 var ms;
 var m;
